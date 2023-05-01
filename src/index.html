@@ -1,14 +1,29 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
-  </head>
-  <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
-  </body>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <title>Title</title>
+</head>
+<body>
+<h1>Calculate square</h1>
+<h2>Square</h2>
+<input id='square' type='number'>
+<button id='button-square'>Calculate square of square</button>
+<h3 id='calculated-square-square'></h3>
+<br />
+
+<h2>Rectangular triangle</h2>
+<input id='triangle-side-1' type='number'>
+<input id='triangle-side-2' type='number'>
+<button id='button-triangle'>Calculate square of triangle</button>
+<h3 id='calculated-square-triangle'></h3>
+<br />
+
+<h2>Rectangle</h2>
+<input id='rectangle-side-1' type='number'>
+<input id='rectangle-side-2' type='number'>
+<button id='button-rectangle'>Calculate square of rectangle</button>
+<h3 id='calculated-square-rectangle'></h3>
+<script type='module' src='index.js'></script>
+</body>
 </html>
